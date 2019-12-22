@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6365409720051048976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4278470528318331933}
+  - component: {fileID: 1650621779559590455}
+  m_Layer: 0
+  m_Name: Test Mod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4278470528318331933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365409720051048976}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5569779542931402147}
+  m_Father: {fileID: 4733943572314358999}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1650621779559590455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365409720051048976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d753e595f0fdd554b9078ef8bd3ad639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lod1: {fileID: 0}
+  lod2: {fileID: 0}
+  lod3: {fileID: 0}
+  accessories:
+  - accessory: {fileID: 5569779542928588049}
+    boneType: 0
+  boneAccessories: []
+  skinIndex: 0
+  possibleMaterials: []
+  textureSwappings: []
+  vanillaBootTextureSwapping:
+    diffuse: {fileID: 0}
+    normalMap: {fileID: 0}
+  gibs: {fileID: 0}
+  appearanceStats: {fileID: 0}
+  audioClips: {fileID: 0}
+  needsHair: 1
+  needsEyes: 1
+--- !u!1 &8150902880435752570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4733943572314358999}
+  - component: {fileID: 7133104339002934842}
+  m_Layer: 0
+  m_Name: ModelContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4733943572314358999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8150902880435752570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4278470528318331933}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7133104339002934842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8150902880435752570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b794605d595143042bbdf3dfe7e986ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customModelInformation:
+    modelPrefab: {fileID: 6365409720051048976}
+    name: Test Skirt
+    image: {fileID: 21300000, guid: 05d3c86fba3b96c4d9622082c23c2b05, type: 3}
+    description: This mods adds a skirt to a model.
+--- !u!1001 &5569779542931797681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4278470528318331933}
+    m_Modifications:
+    - target: {fileID: 100146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_Name
+      value: Skirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e5de3ac970095944bb7c5693f93f8ddb, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c10f9fbc17818f45b097926a4c661bf, type: 3}
+--- !u!4 &5569779542931402147 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400146, guid: 5c10f9fbc17818f45b097926a4c661bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5569779542931797681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &5569779542928588049 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700000, guid: 5c10f9fbc17818f45b097926a4c661bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5569779542931797681}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042a4fb46ef4d0148b557485583f5b6c, type: 3}
+  m_Name: GibsDictionary
+  m_EditorClassIdentifier: 
+  gibs:
+  - type: 0
+    gibPrefab: {fileID: 7654385073361492206, guid: 3377b091c08057042886ead46387fff7,
+      type: 3}
+  - type: 1
+    gibPrefab: {fileID: 5583805981395880008, guid: a6df287be8acfeb439b60fd32fbff866,
+      type: 3}
+  - type: 2
+    gibPrefab: {fileID: 1271435203661060575, guid: 119654bc1de99d5459950ec8cdf2524a,
+      type: 3}
+  - type: 3
+    gibPrefab: {fileID: 3668591727970269255, guid: 970d26eee8ee7ff4c93f9b423df8803d,
+      type: 3}
+  - type: 4
+    gibPrefab: {fileID: 6196612545616695853, guid: 9124ea4d25ccf9f4788a6bdb10434f4d,
+      type: 3}
+  - type: 5
+    gibPrefab: {fileID: 7478165910925798516, guid: a5d47e33ee7486a40b56cb04fda56fdf,
+      type: 3}
+  - type: 6
+    gibPrefab: {fileID: 1342753280822450616, guid: da3040a629856274989e35eb743cef29,
+      type: 3}
+  - type: 7
+    gibPrefab: {fileID: 2260670226737515884, guid: 5e14c1047a9712b47a4ecbf14ca7b947,
+      type: 3}
+  - type: 8
+    gibPrefab: {fileID: 2534404545145733194, guid: b3456c8bc6b1f2c44934a75f2480b755,
+      type: 3}
+  - type: 9
+    gibPrefab: {fileID: 9193416691393316010, guid: 0bfb2121f4710c044a23d8b4f531b6a4,
+      type: 3}
+  - type: 10
+    gibPrefab: {fileID: 6196612545616695853, guid: 9124ea4d25ccf9f4788a6bdb10434f4d,
+      type: 3}
+  gibSets:
+  - gibSetType: 0
+    gibTypes: 00000000010000000200000003000000040000000500000006000000
+  - gibSetType: 1
+    gibTypes: 090000000a000000
+  - gibSetType: 2
+    gibTypes: 0700000008000000
+  - gibSetType: 3
+    gibTypes: 07000000060000000300000004000000
+  - gibSetType: 4
+    gibTypes: 0200000000000000010000000500000008000000

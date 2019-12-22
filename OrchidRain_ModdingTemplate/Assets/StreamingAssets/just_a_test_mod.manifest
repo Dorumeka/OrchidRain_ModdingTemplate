@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1109379598
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 410fab113675481e3f1edd1f9e80567f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0cd6a95b443f86a19a0d657bd861938a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0fdc5d11b8a88ae4294d0c64316594f3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d753e595f0fdd554b9078ef8bd3ad639, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5af2e05bd4cc5ba44932a11f6c4e599f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b794605d595143042bbdf3dfe7e986ef, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/ModelContainer.prefab
+Dependencies: []

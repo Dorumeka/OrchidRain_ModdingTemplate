@@ -1,0 +1,1 @@
+This is an auto-generated folder by AutoLOD which stores the generated LOD meshes. Here are all the example's auto generated LODs. They are left here for educational purposes. You can delete this whole folder safely if you don't plan to use the examples provided.

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af2e05bd4cc5ba44932a11f6c4e599f, type: 3}
+  m_Name: NpcAudioClips
+  m_EditorClassIdentifier: 
+  replaceMissingLinesWithVanilla: 1
+  genericVoiceClips:
+  - type: 3
+    clips:
+    - {fileID: 8300000, guid: 7b33191350f852f41acb7f6736b72963, type: 3}
+    - {fileID: 8300000, guid: d444a58d21ea2ca40b8d8d7addf3ff03, type: 3}
+    - {fileID: 8300000, guid: 8b9e7ebc5ff8251418794bc27df35222, type: 3}
+    - {fileID: 8300000, guid: 8a11ac58e809ec349a2c8acc3e4cc24d, type: 3}
+    - {fileID: 8300000, guid: 6d7148ada0709de4baa421470d16f592, type: 3}
+    - {fileID: 8300000, guid: 3d3924c53e4d0f04683b9a94c3912be6, type: 3}
+    - {fileID: 8300000, guid: 9005e6e492b50bf48bf14c78ee2bebe3, type: 3}
+    - {fileID: 8300000, guid: 6754473cd5acef64ba5b5788bf986cea, type: 3}
+  sensualVoiceClips: []
+  shyVoiceClips: []

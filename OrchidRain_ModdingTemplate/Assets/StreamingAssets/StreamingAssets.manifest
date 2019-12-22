@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3941329521
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: just_a_test_mod
+      Dependencies: {}
+    Info_1:
+      Name: sphere_head
+      Dependencies: {}
+    Info_2:
+      Name: test_guy
+      Dependencies: {}
+    Info_3:
+      Name: test_skirt
+      Dependencies: {}

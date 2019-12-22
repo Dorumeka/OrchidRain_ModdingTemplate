@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 4074572183
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4143f83f18dde194d983993b9670e591
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e95069834e3ef898d6e4d2b0f94737cd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d753e595f0fdd554b9078ef8bd3ad639, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b794605d595143042bbdf3dfe7e986ef, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Sphere head mod/ModelContainer.prefab
+Dependencies: []

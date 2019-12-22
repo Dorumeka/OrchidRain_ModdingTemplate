@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2474038351
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 458d7783eb20effbf8b7c50c002d5664
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c865ba74e1ed41fe961fea58af26e1c0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d753e595f0fdd554b9078ef8bd3ad639, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b794605d595143042bbdf3dfe7e986ef, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Skirt/ModelContainer.prefab
+Dependencies: []

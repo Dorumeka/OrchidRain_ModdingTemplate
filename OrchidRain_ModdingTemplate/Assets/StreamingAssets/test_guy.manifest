@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 2758926770
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49e250df0a87be0d2bd5aa4df5136dbe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7d39ce86e66e9d8da02205436cddf46c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3b6501244c613244685e05adcefbedff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 042a4fb46ef4d0148b557485583f5b6c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d753e595f0fdd554b9078ef8bd3ad639, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e0eb9661dcb8ea4f8acb45586df32e4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2887fce86ebdd7d4b9c0a1fb79d0fb23, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b794605d595143042bbdf3dfe7e986ef, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Examples/Test Guy/ModelContainer.prefab
+Dependencies: []
